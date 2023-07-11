@@ -66,13 +66,14 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    width: 594px;
+    width: 574px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .about{
     padding: 130px;
     border-radius: 10px;
-    margin: 130px;
+    margin:50px;
 }
 .info-container{
     display: flex;
@@ -85,7 +86,10 @@ body{
     padding: 10px;
 }
 .info-title{
-
+    font-weight: 700;
+    text-align: center;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 .about-info-pink{
     border-radius: 300px 300px 0px 0px;
@@ -99,4 +103,93 @@ body{
 .about-info-yellow{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+}
+
+
+.border-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 250px 100px 150px 300px;
+
+
+}
+.second-section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    width: 700px;
+}
+.second-section-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    text-align: center;
+}
+.picture{
+    display: flex;
+      
+}
+.new-picture{
+    margin-left:300px;
+    width: 318px;
+    height: 420px;  
+}
+
+.input-title{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: 0;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    font-size: medium;
+    
+}
+.submit-btn{
+    border-radius: 5px;
+    background: #E55473;
+    gap: 10px;
+    padding: 20px 30px;
+    margin-top: 32px;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    
+}
+.last-section{
+    background-image: url('../images/rectangle9.png');
+   background-size: cover;
+   padding:90px ;
+   
+}
+.color-span{
+    color: #E55473;
+}
+.footer-style
+{
+   background-color: black;
+   padding: 150px;
+
+}
+.footer-head{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    color:#FFFFFF;
+    text-align: center;
+}
+.foot-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.last-footer{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
